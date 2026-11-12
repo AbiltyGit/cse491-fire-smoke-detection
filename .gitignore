@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+*.pem
+*.key
+*firebase-adminsdk*.json
+google-services.json
+GoogleService-Info.plist
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Model Weights & Datasets
+*.pt
+*.onnx
+*.engine
+datasets/
+runs/
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.packages
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

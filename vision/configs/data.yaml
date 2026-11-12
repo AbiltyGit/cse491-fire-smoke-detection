@@ -1,0 +1,9 @@
+# YOLO Dataset Configuration (Update paths for local/Colab training)
+path: ../datasets/fire_smoke
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: flame
+  1: smoke
